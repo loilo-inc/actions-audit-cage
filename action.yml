@@ -1,0 +1,17 @@
+name: 'Audit Cage Action'
+description: 'A GitHub Action template built with Node.js 24'
+author: 'loilo-inc'
+inputs:
+  who-to-greet:
+    description: 'Who to greet'
+    required: true
+    default: 'World'
+outputs:
+  time:
+    description: 'The time we greeted you'
+runs:
+  using: 'node24'
+  main: 'dist/index.js'
+branding:
+  icon: 'shield'
+  color: 'blue'
