@@ -49,6 +49,9 @@ async function run() {
         if (error instanceof Error) {
             core.setFailed(error.message);
         }
+        else {
+            core.setFailed(String(error));
+        }
     }
 }
 run();
