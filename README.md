@@ -6,8 +6,7 @@ A GitHub Action template built with Node.js 24.
 
 - Built with Node.js 24
 - TypeScript support
-- ESLint and Prettier for code quality
-- Jest for testing
+- Vitest for testing
 - Automated CI/CD with GitHub Actions
 
 ## Development
@@ -33,18 +32,6 @@ npm run build
 
 ```bash
 npm test
-```
-
-### Lint
-
-```bash
-npm run lint
-```
-
-### Format
-
-```bash
-npm run format
 ```
 
 ## Usage
