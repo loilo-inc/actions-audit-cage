@@ -22,9 +22,6 @@ inputs:
   issue-title:
     description: Custom issue title. Defaults to "Cage audit report (<region>/<cluster>/<service>)".
     required: false
-  github-repository:
-    description: Target repository in `owner/repo` form. Defaults to the current repository.
-    required: false
   dry-run:
     description: If true, do not create/update the issue; only log the summary.
     required: false
