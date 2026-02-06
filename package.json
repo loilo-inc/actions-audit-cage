@@ -6,6 +6,6 @@
     "esbuild": "^0.27.2"
   },
   "dependencies": {
-    "@loilo-inc/actions-cage": "^0.1.4"
+    "@loilo-inc/actions-cage": "^0.2.0"
   }
 }
